@@ -20,7 +20,7 @@ const GlobalStyle = createGlobalStyle`
     --scrollbar-track-color: #383838
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -39,6 +39,18 @@ a {
     font-family: inherit;
     color: inherit;
     font-size: inherit;
+}
+
+h1 {
+    font-size: 55px;
+    color: var(--white-color);
+    span {
+        font-size: 60px;        
+    }
+}
+span {
+    color: var(--primary-color);
+
 }
 
 

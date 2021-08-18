@@ -3,9 +3,12 @@ import styled from 'styled-components';
 
 function PrimaryButton({title}) {
     return (
-        <PrimaryButtonStyled>
-            {title}
-        </PrimaryButtonStyled>
+        <>
+            <PrimaryButtonStyled>
+                {title}
+            </PrimaryButtonStyled>
+
+        </>
     )
 }
 

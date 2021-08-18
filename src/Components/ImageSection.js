@@ -12,12 +12,9 @@ function ImageSection() {
             <div className="right-content">
                 <h4>I'am <span>Kuvatov Romish</span></h4>
                 <p className="paragraph">
-                    В своей работе использую React(JS / TS),
-                    Redux. Люблю решать бизнес задачи и помогать
-                    разрабатывать удобные для пользователя интерфейсы,
-                    для меня важно что-бы конечный потребитель был
-                    доволен моим продуктом. Никогда не останавливаюсь
-                    на достигнутом.
+                    In my work I use React (JS / TS), Redux. I love solving business problems and helping to develop
+                    user-friendly interfaces, it is important for me that the end consumer is satisfied with my product.
+                    I never stop there.
                 </p>
                 <div className="about-info">
                     <div className="info-title">
@@ -33,7 +30,7 @@ function ImageSection() {
                         <p>: Kazakhstan, Almaty</p>
                     </div>
                 </div>
-                <PrimaryButton title={'Download Cv'}/>
+                <PrimaryButton title={'Download CV'}/>
             </div>
         </ImageSectionStyled>
     )
@@ -41,7 +38,7 @@ function ImageSection() {
 
 
 const ImageSectionStyled = styled.div`
-    margin-top: 5rem;
+    margin-top: 80px;
     display: flex;
     @media screen and (max-width:1000px){
         flex-direction: column;

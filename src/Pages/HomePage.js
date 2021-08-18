@@ -15,9 +15,7 @@ const HomePage = () => {
             <div className="typography">
                 <h1>Hi, I'm Romish <span>Web Developer</span></h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Commodi excepturi incidunt ipsum laborum
-                    magni natus obcaecati perspiciatis quia sit vero?
+                    I'm Front-end Develeper, Who loves his job and does it great
                 </p>
                 <div className="icons">
                     <a href="https://www.codewars.com/users/romish" className="icon i-codewars">

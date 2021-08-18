@@ -14,7 +14,7 @@ const Navigation = () => {
             </div>
             <ul className="nav-items">
                 <li className="nav-item">
-                    <NavLink to="/home" exact activeClassName="active-class">Home</NavLink>
+                    <NavLink to="/" exact activeClassName="active-class">Home</NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink to="/about" exact activeClassName="active-class">About</NavLink>
@@ -24,9 +24,6 @@ const Navigation = () => {
                 </li>
                 <li className="nav-item">
                     <NavLink to="/portfolios" exact activeClassName="active-class">Portfolios</NavLink>
-                </li>
-                <li className="nav-item">
-                    <NavLink to="/blogs" exact activeClassName="active-class">Blogs</NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink to="/contact" exact activeClassName="active-class">Contact</NavLink>
@@ -68,9 +65,13 @@ const NavigationStyled = styled.nav`
             display: block;
             a {
                 display: block;
-                padding: 4px 0;
+                padding: 5px 0;
                 position: relative;
                 z-index: 10;
+                text-transform: uppercase;
+                transition: all .4s ease-in-out;
+                font-weight: 600;
+                letter-spacing: 1px;
                 &:hover{
                     cursor: pointer;
                 }

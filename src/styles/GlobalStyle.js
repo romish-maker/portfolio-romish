@@ -38,7 +38,7 @@ body {
 a {
     font-family: inherit;
     color: inherit;
-    font-size: inherit;
+    font-size: 16px;
 }
 
 h1 {
